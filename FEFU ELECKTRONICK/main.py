@@ -16,8 +16,8 @@ def main():
     sound_manager = SoundManager()
     sound_manager.play_music()  
     
-    current_music_volume = 50  # 0-100
-    current_sfx_volume = 70    # 0-100
+    current_music_volume = 50 
+    current_sfx_volume = 70    
     current_gender = "male"
     
     menu = Menu(screen, sound_manager)
