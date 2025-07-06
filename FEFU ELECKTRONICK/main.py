@@ -9,7 +9,7 @@ from settings import *
 def main():
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-    pygame.display.set_caption("РАУ: Держи средний балл!")
+    pygame.display.set_caption("FEFU_Electronic")
     clock = pygame.time.Clock()
     
 
